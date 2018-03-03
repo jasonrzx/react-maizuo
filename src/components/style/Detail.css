@@ -1,0 +1,61 @@
+.detail-image{
+	width: 100%;
+	margin-top: 50px;
+}
+.detail-introduce{
+	margin: 16px auto;
+	border-left: 16px solid rgb(228, 200, 156);
+	font-size: 16px;
+	padding-left: 4px;
+}
+.detail-movieinformation{
+	height: 18px;
+	line-height: 18px;
+	margin-bottom: 10px;
+	padding-left: 20px;
+	overflow: hidden;
+	font-size: 12px;
+}
+.detail-movieinformation>.detail-twoword{
+	display: inline-block;
+	width: 48px;
+	text-align: justify;
+}
+.detail-movieinformation>.detail-twoword>span{
+	float: right;
+	
+}
+.detail-movieinformation>.detail-colon{
+	padding: 0 3px;
+}
+.detail-actorname:last-child>.detail-dashed{
+	display: none;
+}
+.detail-dashed{
+	padding: 0 4px;
+}
+.detail-information{
+	padding: 0 20px;
+	margin-bottom: 80px;
+	text-overflow: ellipsis;
+	font-size: 12px;
+	line-height: 18px;
+}
+.detail-immediately{
+	position: fixed;
+	left: 0;
+	bottom: 20px;
+	width: 100%;
+	text-align: center;
+}
+.detail-immediately>button{
+	width: 156px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	border: none;
+	background: #fe8233;
+	border-radius: 18px;
+	color: #fff;
+
+}

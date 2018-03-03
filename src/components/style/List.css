@@ -1,0 +1,90 @@
+.am-whitespace{
+	height: 0 !important;
+	margin-top: 50px;
+}
+.am-tabs-default-bar-tab-active{
+	color: #fe6e00;
+}
+.am-tabs-default-bar-tab::after{
+	background-color: #fe6e00 !important;
+}
+.am-tabs-default-bar-underline{
+	border: 2px #fe6e00 solid !important;
+}
+.am-tabs-default-bar{
+	z-index: 0;
+}
+.list-box{
+	padding: 0 15px;
+	background: #f9f9f9;
+	height: 100%;
+}
+.list-list{
+	width: 100%;
+}
+.am-tabs *{
+	background: #f9f9f9;
+}
+.list-all{
+	width: 100%;
+	padding: 20px 0;
+	border-bottom: 1px dashed #c9c9c9;
+	cursor: pointer;
+	overflow: hidden;
+}
+.list-image{
+	width: 60px;
+	float: left;
+	overflow: hidden;
+}
+.list-image>img{
+	width: 100%;
+	height: 100%;
+}
+.list-all>a>.list-right{
+	float: right;
+	width: 75%;
+	padding-right: 10px;
+}
+.list-all>a>.list-right>.list-rone{
+	font-size: 16px;
+	line-height: 32px;
+}
+.list-all>a>.list-right>.list-rone>.list-name{
+	color: #000;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.list-all>a>.list-right>.list-rone>.list-num{
+	float: right;
+	color: #fc7103;
+}
+.list-all>a>.list-right>.list-rone>.list-num>.iconr{
+	color: #c6c6c6;
+	font-size: 10px;
+	line-height: 29px;
+}
+.list-all>a>.list-right>.list-rtwo{
+	font-size: 12px;
+	line-height: 24px;
+	height: 24px;
+	color: #8e8e8e;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 100%;
+}
+.list-all>a>.list-right>.list-rthree{
+	font-size: 12px;
+	line-height: 24px;
+	height: 24px;
+	color: #8e8e8e;
+}
+.list-all>a>.list-right>.list-rthree>.list-watch{
+	float: right;
+	padding-right: 10px;
+}
+.list-all>a>.list-right>.list-rthree>.list-week{
+	padding-left: 20px;
+}

@@ -1,0 +1,57 @@
+.arrow{
+	display: none !important; 
+}
+.am-accordion{
+	background: #fff;
+}
+.am-accordion .am-accordion-item .am-accordion-header{
+	background-color: #e1e1e1;
+	color: #636363;
+	height: 40px;
+	font-size: 14px;
+	margin-bottom: 1px;
+}
+.cinema-box .am-list-item-middle{
+	height: auto;
+	background: #fff;
+	border-bottom: 1px solid #e1e1e1;
+}
+.cinema-cinema{
+	width: 75%;
+	min-width: 230px;
+	float: left;
+	overflow: hidden;
+}
+.cinema-one{
+	margin-bottom: 5px;
+	width: 100%;
+}
+.cinema-one>.cinema-name{
+	display: inline-block;
+	width: 100%;
+	font-size: 16px;
+	color: #333;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.cinema-two{
+	width: 100%;
+}
+.cinema-two>.cinema-address{
+	display: inline-block;
+	font-size: 12px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	width: 100%;
+	overflow: hidden;
+	color: #ccc;
+}
+.cinema-three>.cinema-position{
+	color: #ccc;
+	font-size: 12px;
+}
+.cinema-icon{
+	float: right;
+	color: #c6c6c6;
+}

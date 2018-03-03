@@ -1,0 +1,25 @@
+.space-carousel {
+  padding: 16px;
+  background: #DEF1E5;
+  overflow: hidden;
+}
+.my-carousel .v-item {
+  height: 36px;
+  line-height: 36px;
+  padding-left: 10px;
+}
+.sub-title {
+  color: #888;
+  font-size: 14px;
+  padding: 30px 0 18px 0;
+}
+.am-wingblank{
+  margin: 0 !important;
+}
+.slider-list{
+  margin-top: 50px !important;
+}
+.slider-frame{
+  min-height: 50px;
+  height:unset !important;
+}

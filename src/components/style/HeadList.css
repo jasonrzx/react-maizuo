@@ -1,0 +1,32 @@
+/*.headlist-enter {
+  opacity: 0;
+}
+
+.headlist-enter.headlist-enter-active {
+  opacity: 1;
+  transition: all 500ms ease-in;
+}
+
+.headlist-leave {
+  opacity: 1;
+}
+
+.headlist-leave.headlist-leave-active {
+  opacity: 0;
+  transition: all 500ms ease-in;
+}*/
+
+.my-drawer {
+  position: relative;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.my-drawer .am-drawer-sidebar {
+  background-color: #fff;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.my-drawer .am-drawer-sidebar .am-list {
+  width: 300px;
+  padding: 0;
+}
