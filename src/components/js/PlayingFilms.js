@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../style/List.css';
 import {Link} from 'react-router-dom';
 import { Toast } from 'antd-mobile';
+import $ from 'jquery';
 import axios from 'axios';
 
 export default class PlayingFilms extends Component {
@@ -23,13 +24,21 @@ export default class PlayingFilms extends Component {
 		window.removeEventListener('scroll', this.handleScroll);
 	}
 	handleScroll() {
-		var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
-		var clientHeight = document.documentElement.clientHeight || document.body.clientHeight;
-		clientHeight = parseInt(0.4*clientHeight)
-		if(scrollTop%clientHeight===0 || scrollTop%clientHeight===1 || scrollTop%clientHeight===2){
-			if(this.state.page < this.state.pagecount){
-				this.state.page++;
-				this.GetFilms();
+		// var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+		//var clientHeight = document.documentElement.clientHeight || document.body.clientHeight;
+		// clientHeight = parseInt(0.4*clientHeight)
+		var divTop = $(".list-box").height();
+		var scrolltop = $(document).scrollTop();
+		var clientHeight = $(window).height();
+		//console.log($(".list-box").height(), "1111111111", $(document).scrollTop(),"------", $(window).height())
+
+		if( divTop-clientHeight-scrolltop+50<=0){
+			var newpage = this.state.page+1;
+			if(newpage <= this.state.pagecount){
+				this.setState({
+					page: newpage
+				})
+				this.GetFilms()
 			}
 		}
 	}	
